@@ -1,0 +1,24 @@
+﻿@import url(layout.css);
+
+/* Header/Blog Title */
+.box{
+background-color:#303030;
+width:550px;
+padding:40px;
+text-align:center;
+margin:auto;
+margin-top:5%;
+color:white;
+font-size:18px;
+border-radius: 10px 10px 10px 10px;
+transition: 0.3s;
+}
+
+.box a{
+	color:lime;
+	font-size:20px;
+} 
+
+.box h4{
+	font-size:18px;
+}

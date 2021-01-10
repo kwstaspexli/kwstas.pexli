@@ -1,0 +1,60 @@
+﻿@font-face {
+  font-family: myFirstFont;
+  src: url(sansation_light.woff);
+}
+* {
+font-family:myFirstFont;
+}
+
+
+body{
+	margin: 0;
+	padding:0;
+	background-image:url('grey_abstract.jpg');
+	background-repeat:repeat;
+	background-attachment:scroll
+}
+#mySidenav a {
+  position: absolute;
+  left: 20px;
+  transition: 0.3s;
+  padding: 15px;
+  width: 100px;
+  text-decoration: none;
+  font-size: 20px;
+  color: white;
+  border-radius: 5px 5px 5px 5px;
+}
+
+#mySidenav a:hover {
+  left: 0;
+}
+
+#about {
+  top: 80px;
+  background-color:#282828;
+}
+
+#blog {
+  top: 140px;
+  background-color: #282828;
+}
+
+#portfolio {
+  top: 200px;
+  background-color: #282828;
+}
+
+
+#projects {
+  top: 260px;
+  background-color: #282828;
+}
+
+#contact {
+  top: 320px;
+  background-color: #282828;
+}
+
+
+

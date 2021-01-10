@@ -1,0 +1,43 @@
+﻿@import url(layout.css);
+.box{
+background-color:#303030;
+width:700px;
+padding:40px;
+text-align:center;
+margin:auto;
+margin-top:5%;
+color:white;
+font-size:17px;
+border-radius: 10px 10px 10px 10px;
+transition: 0.3s;
+}
+.box-img{
+	border-radius: 10px 10px 10px 10px;
+	width: 600px;
+	height: 400px;
+}
+
+.box h1 {
+font-size:40px;
+letter-spacing:3px;
+font-weight:bold;
+font-style:oblique;
+}
+
+.box h5{
+	
+	font-size:20px;
+	letter-spacing:3px;
+	font-weight:100;
+}
+
+.box p{
+	text-align:justify;
+}
+
+.box a{
+    color:white;
+	text-align:left;
+	font-size:35px;
+}
+

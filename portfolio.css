@@ -1,0 +1,42 @@
+﻿@import url(layout.css);
+
+
+* {
+  box-sizing: border-box;
+}
+
+.box{
+background-color:#ffffff;
+width:450px;
+padding:40px;
+text-align:center;
+margin:auto;
+margin-top:5%;
+color:white;
+font-size:17px;
+border-radius: 10px 10px 10px 10px;
+transition: 0.3s;
+}
+.box h1{
+	color:#000000;
+	font-weight:bold;
+	font-style:oblique;
+}
+.box h3{
+	color:#000;
+}
+	
+
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
